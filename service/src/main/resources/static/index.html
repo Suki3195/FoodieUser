@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foodie User Registration</title>
+</head>
+<body>
+<div align='center'>
+    <h2>Welcome to Foodie</h2><br />
+    <!-- <form action="CustomerLogin.jsp"> -->
+
+    <form action="user/register" method="post">
+        <label>UserName:</label>
+        <input type="text" name="name" required/><br/><br/>
+
+        <label>Description:</label>
+        <textarea name="description" rows="4" cols="50" minlength="100" required>Enter your description here.
+        </textarea> <br/><br/>
+
+
+
+        <label>Dish:</label>
+        <input type="checkbox" name="dish" value = "Special Dosa" /> Special Dosa
+        <input type="checkbox" name="dish" value = "Idli" /> Idli
+        <input type="checkbox" name="dish" value = "Vada" />Vada<br/><br/>
+
+
+
+
+        <label>Cuisine:</label>
+        <button type="button" name = "cuisine" value="South Indian">South Indian</button> <br/><br/>
+
+
+
+
+
+        <label>Food Type :-</label>
+        <input type="radio" name="foodType" value="veg">veg
+        <input type="radio" name="foodType" value="non-veg">non-veg    <br/><br/>
+
+
+        <input type="submit" value="submit"/>
+    </form>
+</div>
+</body>
+</html>
+
+
+
+<!--o	Button-->
+
+
+

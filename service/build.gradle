@@ -1,0 +1,22 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'java'
+}
+
+group = 'com.foodie.users'
+version = '0.0.1-SNAPSHOT'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation("org.projectlombok:lombok:1.18.20")
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '10.0.6'
+    implementation 'javax.servlet:jstl:1.2'
+    implementation("org.springframework.boot:spring-boot-maven-plugin:2.5.4")
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+}
